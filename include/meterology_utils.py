@@ -67,7 +67,7 @@ def get_current_weather_from_city_coordinates(coordinates, timestamp):
         gv.task_log.warn(
             f"""
                 Could not retrieve current temperature for {city} at
-                {lat}/{long} from https://api.open/meteo.com.
+                {lat}/{long} from https://api.open-meteo.com.
                 Request returned {r.status_code}.
             """
         )
